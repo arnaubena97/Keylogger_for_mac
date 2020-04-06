@@ -1,0 +1,29 @@
+Traceback (most recent call last):
+  File "keeylogger.py", line 16, in <module>
+    f = open(fitxer, "w")
+IOError: [Errno 2] No such file or directory: 'data/19-11-2019--17:42.dat'
+No handlers could be found for logger "pynput.keyboard.Listener"
+Traceback (most recent call last):
+  File "keeylogger.py", line 56, in <module>
+    listener.join()
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pynput/_util/__init__.py", line 210, in join
+    six.reraise(exc_type, exc_value, exc_traceback)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pynput/_util/__init__.py", line 162, in inner
+    return f(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pynput/_util/darwin.py", line 261, in _handler
+    self._handle(proxy, event_type, event, refcon)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pynput/keyboard/_darwin.py", line 198, in _handle
+    self.on_press(key)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pynput/_util/__init__.py", line 78, in inner
+    if f(*args) is False:
+  File "keeylogger.py", line 49, in on_press
+    f.write(key_name)
+TypeError: expected a string or other character buffer object
+Traceback (most recent call last):
+  File "keeylogger.py", line 3, in <module>
+    from pynput import keyboard
+ImportError: No module named pynput
+Traceback (most recent call last):
+  File "keeylogger.py", line 3, in <module>
+    from pynput import keyboard
+ImportError: No module named pynput
