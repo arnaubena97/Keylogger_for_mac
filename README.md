@@ -1,12 +1,11 @@
 # Educational Keylogger
-![Last Comit](https://img.shields.io/github/last-commit/arnaubena97/Keylogger_for_mac)
 
-This is a eduactional keylogger for a **MAC**. I am not responsible for the use that you give
+This is a eduactional keylogger for a **MAC**. I am not responsible for the use that you give.
 
 ## Requeriments
 
 To use this keylogger you need:
- - Python 3.8
+ - Python 3
  - [Pynput](https://pypi.org/project/pynput/)
  - [Os](https://pypi.org/project/os-sys/)
  - [Datetime](https://pypi.org/project/DateTime/)
