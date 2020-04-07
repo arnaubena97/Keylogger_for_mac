@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 from pynput import keyboard
-# from pynput import mouse #if would mouse
+#from pynput import mouse #if would mouse
 import os
 
 from datetime import datetime
